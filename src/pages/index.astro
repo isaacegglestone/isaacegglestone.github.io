@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+
+const skills = ['Azure', 'Kubernetes', 'Terraform', 'CI/CD', 'GitHub Actions', 'Platform engineering', 'Cloud security', 'Automation'];
+---
+
+<Base title="Isaac Egglestone | DevOps & Platform Engineer">
+	<h1>Hi, I'm Isaac.</h1>
+	<p>
+		I'm a DevOps and platform engineer based in Melbourne. I build and run cloud platforms on Azure and Kubernetes,
+		manage infrastructure as code with Terraform, and automate delivery pipelines so engineering teams can ship
+		safely and quickly.
+	</p>
+	<ul class="tags">
+		{skills.map((skill) => <li>{skill}</li>)}
+	</ul>
+
+	<h2>Projects</h2>
+	<p class="muted">Portfolio projects are on the way. In the meantime, see my work on <a href="https://github.com/isaacegglestone">GitHub</a>.</p>
+
+	<h2>Get in touch</h2>
+	<p>Connect with me on <a href="https://www.linkedin.com/in/isaacegglestone/">LinkedIn</a>.</p>
+</Base>

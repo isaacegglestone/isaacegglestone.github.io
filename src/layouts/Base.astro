@@ -1,0 +1,47 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description = 'Isaac Egglestone: DevOps and platform engineer.' } = Astro.props;
+const nav = [
+	{ href: '/', label: 'Home' },
+	{ href: '/assistant/', label: 'Assistant' },
+	{ href: '/privacy/', label: 'Privacy' },
+];
+const path = Astro.url.pathname;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content={description} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="canonical" href={new URL(path, Astro.site)} />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<header>
+			<a class="brand" href="/">Isaac Egglestone</a>
+			<nav>
+				{nav.map((item) => (
+					<a href={item.href} aria-current={path === item.href ? 'page' : undefined}>{item.label}</a>
+				))}
+			</nav>
+		</header>
+		<main>
+			<slot />
+		</main>
+		<footer>
+			<a href="https://github.com/isaacegglestone">GitHub</a>
+			<a href="https://www.linkedin.com/in/isaacegglestone/">LinkedIn</a>
+			<a href="/privacy/">Privacy</a>
+		</footer>
+	</body>
+</html>
