@@ -1,0 +1,26 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 440' role='img' aria-labelledby='t1'>
+<title id='t1'>DevOps infinity loop with AI assisting every stage</title>
+<defs><linearGradient id='g' x1='0' x2='1'><stop offset='0' stop-color='#58a6ff'/><stop offset='1' stop-color='#3fb950'/></linearGradient></defs>
+<rect width='900' height='440' rx='16' fill='#0d1117'/>
+<path d='M450,220 C370,80 120,80 120,220 C120,360 370,360 450,220 C530,80 780,80 780,220 C780,360 530,360 450,220 Z' fill='none' stroke='url(#g)' stroke-width='34' stroke-linejoin='round' opacity='0.9'/>
+<text x='215' y='228' text-anchor='middle' font-size='30' font-weight='700' fill='#58a6ff' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>DEV</text>
+<text x='685' y='228' text-anchor='middle' font-size='30' font-weight='700' fill='#3fb950' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>OPS</text>
+<text x='215' y='76' text-anchor='middle' font-size='18' font-weight='600' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Plan</text>
+<text x='102' y='176' text-anchor='end' font-size='18' font-weight='600' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Code</text>
+<text x='102' y='288' text-anchor='end' font-size='18' font-weight='600' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Build</text>
+<text x='215' y='396' text-anchor='middle' font-size='18' font-weight='600' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Test</text>
+<text x='685' y='76' text-anchor='middle' font-size='18' font-weight='600' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Release</text>
+<text x='798' y='176' text-anchor='start' font-size='18' font-weight='600' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Deploy</text>
+<text x='798' y='288' text-anchor='start' font-size='18' font-weight='600' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Operate</text>
+<text x='685' y='396' text-anchor='middle' font-size='18' font-weight='600' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Monitor</text>
+<circle cx='215' cy='124' r='6' fill='#d2a8ff'/>
+<circle cx='120' cy='170' r='6' fill='#d2a8ff'/>
+<circle cx='120' cy='282' r='6' fill='#d2a8ff'/>
+<circle cx='215' cy='338' r='6' fill='#d2a8ff'/>
+<circle cx='685' cy='124' r='6' fill='#d2a8ff'/>
+<circle cx='780' cy='170' r='6' fill='#d2a8ff'/>
+<circle cx='780' cy='282' r='6' fill='#d2a8ff'/>
+<circle cx='685' cy='338' r='6' fill='#d2a8ff'/>
+<circle cx='450' cy='220' r='48' fill='#d2a8ff' opacity='0.18'/><circle cx='450' cy='220' r='38' fill='#0d1117' stroke='#d2a8ff' stroke-width='4'/><text x='450' y='229' text-anchor='middle' font-size='26' font-weight='700' fill='#d2a8ff' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>AI</text>
+<text x='450' y='422' text-anchor='middle' font-size='15' fill='#8b949e' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>AI assists every stage, and humans stay in the loop</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 320' role='img' aria-labelledby='t3'>
+<title id='t3'>Delivery pipeline with AI checkpoints and a feedback path</title>
+<defs><marker id='b' viewBox='0 0 10 10' refX='8' refY='5' markerUnits='userSpaceOnUse' markerWidth='14' markerHeight='14' orient='auto'><path d='M0,0 L10,5 L0,10 z' fill='#8b949e'/></marker></defs>
+<rect width='900' height='320' rx='16' fill='#0d1117'/>
+<text x='450.0' y='44' text-anchor='middle' font-size='22' font-weight='700' fill='#e6edf3' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Shift left with AI checkpoints</text>
+<rect x='30.0' y='110' width='118' height='56' rx='10' fill='#0d1117' stroke='#58a6ff' stroke-width='3'/>
+<text x='89.0' y='145' text-anchor='middle' font-size='18' font-weight='700' fill='#58a6ff' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Commit</text>
+<text x='89.0' y='190' text-anchor='middle' font-size='12.5' fill='#8b949e' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>AI pair-programming</text>
+<line x1='152.0' y1='138' x2='168.4' y2='138' stroke='#8b949e' stroke-width='3' marker-end='url(#b)'/>
+<rect x='174.4' y='110' width='118' height='56' rx='10' fill='#0d1117' stroke='#d2a8ff' stroke-width='3'/>
+<text x='233.4' y='145' text-anchor='middle' font-size='18' font-weight='700' fill='#d2a8ff' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Review</text>
+<text x='233.4' y='190' text-anchor='middle' font-size='12.5' fill='#8b949e' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>AI code review</text>
+<circle cx='286.4' cy='116' r='9' fill='#d2a8ff'/><text x='286.4' y='120' text-anchor='middle' font-size='9' font-weight='700' fill='#0d1117' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>AI</text>
+<line x1='296.4' y1='138' x2='312.8' y2='138' stroke='#8b949e' stroke-width='3' marker-end='url(#b)'/>
+<rect x='318.8' y='110' width='118' height='56' rx='10' fill='#0d1117' stroke='#58a6ff' stroke-width='3'/>
+<text x='377.8' y='145' text-anchor='middle' font-size='18' font-weight='700' fill='#58a6ff' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Build</text>
+<text x='377.8' y='190' text-anchor='middle' font-size='12.5' fill='#8b949e' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>cached, reproducible</text>
+<line x1='440.8' y1='138' x2='457.2' y2='138' stroke='#8b949e' stroke-width='3' marker-end='url(#b)'/>
+<rect x='463.2' y='110' width='118' height='56' rx='10' fill='#0d1117' stroke='#d2a8ff' stroke-width='3'/>
+<text x='522.2' y='145' text-anchor='middle' font-size='18' font-weight='700' fill='#d2a8ff' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Secure</text>
+<text x='522.2' y='190' text-anchor='middle' font-size='12.5' fill='#8b949e' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>AI scan triage</text>
+<circle cx='575.2' cy='116' r='9' fill='#d2a8ff'/><text x='575.2' y='120' text-anchor='middle' font-size='9' font-weight='700' fill='#0d1117' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>AI</text>
+<line x1='585.2' y1='138' x2='601.6' y2='138' stroke='#8b949e' stroke-width='3' marker-end='url(#b)'/>
+<rect x='607.6' y='110' width='118' height='56' rx='10' fill='#0d1117' stroke='#3fb950' stroke-width='3'/>
+<text x='666.6' y='145' text-anchor='middle' font-size='18' font-weight='700' fill='#3fb950' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Deploy</text>
+<text x='666.6' y='190' text-anchor='middle' font-size='12.5' fill='#8b949e' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>IaC: Terraform/Helm</text>
+<line x1='729.6' y1='138' x2='746.0' y2='138' stroke='#8b949e' stroke-width='3' marker-end='url(#b)'/>
+<rect x='752.0' y='110' width='118' height='56' rx='10' fill='#0d1117' stroke='#3fb950' stroke-width='3'/>
+<text x='811.0' y='145' text-anchor='middle' font-size='18' font-weight='700' fill='#3fb950' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>Observe</text>
+<text x='811.0' y='190' text-anchor='middle' font-size='12.5' fill='#8b949e' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>AI incident insights</text>
+<path d='M811.0,208 L811.0,238 L89.0,238 L89.0,208' fill='none' stroke='#d2a8ff' stroke-width='3' stroke-dasharray='8 6' marker-end='url(#b)'/>
+<text x='450.0' y='262' text-anchor='middle' font-size='14' fill='#d2a8ff' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>production feedback informs the next change</text>
+</svg>

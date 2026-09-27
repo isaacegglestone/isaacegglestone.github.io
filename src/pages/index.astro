@@ -1,19 +1,55 @@
 ---
 import Base from '../layouts/Base.astro';
 
-const skills = ['Azure', 'Kubernetes', 'Terraform', 'CI/CD', 'GitHub Actions', 'Platform engineering', 'Cloud security', 'Automation'];
+const skills = ['Azure', 'AWS', 'Kubernetes', 'Terraform', 'CI/CD', 'GitHub Actions', 'Platform engineering', 'Cloud security', 'Automation', 'AI-augmented engineering'];
+const aiPractices = [
+	{ title: 'AI pair-programming for infrastructure', body: 'Using AI coding agents to draft Terraform, Helm and pipeline changes, then reviewing and testing them like any other code.' },
+	{ title: 'AI-assisted code and security review', body: 'Adding AI reviewers to pull requests and security scans so issues surface earlier and humans spend their time on the calls that matter.' },
+	{ title: 'Faster incident insight', body: 'Letting AI summarise alerts, logs and traces into a clear starting point, which shortens the path from "something is wrong" to "here is the fix".' },
+	{ title: 'Governed AI tooling', body: 'Connecting AI agents to cloud platforms through controlled tool access (such as MCP servers), with least privilege, auditability and a human approving every change.' },
+];
 ---
 
 <Base title="Isaac Egglestone | DevOps & Platform Engineer">
 	<h1>Hi, I'm Isaac.</h1>
 	<p>
-		I'm a DevOps and platform engineer based in Melbourne. I build and run cloud platforms on Azure and Kubernetes,
-		manage infrastructure as code with Terraform, and automate delivery pipelines so engineering teams can ship
-		safely and quickly.
+		I'm a DevOps and platform engineer based in Melbourne. I build and run cloud platforms on Azure, AWS and
+		Kubernetes, manage infrastructure as code with Terraform, and automate delivery pipelines so engineering teams
+		can ship safely and quickly.
+	</p>
+	<p>
+		Increasingly, I'm using AI to make all of that better: faster feedback, safer changes and less toil, with
+		people staying firmly in control.
 	</p>
 	<ul class="tags">
 		{skills.map((skill) => <li>{skill}</li>)}
 	</ul>
+
+	<figure>
+		<img src="/images/devops-ai-infinity.svg" alt="DevOps infinity loop (plan, code, build, test, release, deploy, operate, monitor) with AI at the centre assisting every stage" width="900" height="440" />
+	</figure>
+
+	<h2>Leveraging AI across DevOps</h2>
+	<p>
+		DevOps is all about feedback loops. AI makes each loop tighter by helping at every stage, from writing the
+		change to understanding how it behaves in production.
+	</p>
+	<div class="cards">
+		{aiPractices.map((p) => (
+			<section class="card">
+				<h3>{p.title}</h3>
+				<p>{p.body}</p>
+			</section>
+		))}
+	</div>
+
+	<figure>
+		<img src="/images/ai-pipeline.svg" alt="Delivery pipeline: commit, AI code review, build, AI security scan triage, deploy with Terraform and Helm, observe with AI incident insights, and a feedback path back to commit" width="900" height="320" loading="lazy" />
+	</figure>
+
+	<figure>
+		<img src="/images/ai-feedback-loop.svg" alt="Operations feedback loop: observe, AI analysis, AI-suggested fixes, human review, act through infrastructure as code, and learn" width="900" height="600" loading="lazy" />
+	</figure>
 
 	<h2>Projects</h2>
 	<p class="muted">Portfolio projects are on the way. In the meantime, see my work on <a href="https://github.com/isaacegglestone">GitHub</a>.</p>
